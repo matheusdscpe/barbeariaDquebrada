@@ -1,0 +1,41 @@
+.mainValores{
+    width: 100%;
+}
+.tituloDeCategorias{
+    text-align: center;
+}
+.tituloDeValores{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.blocosDeValores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caixaDeValores{
+    margin: 0 1% 0;
+    cursor: pointer;
+    margin: 1.5em;
+    border: solid 2px black;
+}
+.caixaSeta{
+    display: flex;
+    justify-content: center;
+}
+.imgCaixaSeta{
+    margin: 0 0 3%;
+}
+
+@media screen and (min-width:800px) {
+    .mainValores{
+        display: inline;
+    }
+    
+    .blocosDeValores{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}

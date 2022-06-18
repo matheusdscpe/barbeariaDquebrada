@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barraHorizontal{
+    padding: 1rem 0;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.buttonBarraHorizontal{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.buttonH{
+    padding: 0.5em;
+}
+@media screen and (min-width:800px) {
+    .barraHorizontal{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .buttonH{
+        margin: 1em;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,35 @@
+main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 10%;
+}
+.imagemConteudoCentral{
+    width: 90%;
+    height: 90%;
+    border-radius: 3%;
+}
+.imgCentralHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textoCentralHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.textoCentralHome strong{
+    font-size: 5em;
+    color: rgb(235, 175, 11);
+}
+@media screen and (max-width:880px){
+    main{
+        display: block;
+    }
+    .textoCentralHome{
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+}
+

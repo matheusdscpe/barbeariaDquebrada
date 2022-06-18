@@ -1,0 +1,79 @@
+.tituloReservas{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.primeiraEtapa{
+    height: 600px;
+    width: 90%;
+    margin: 0 auto;
+}
+.paragrafoPrimeiraEtapa{
+    width: 90%;
+    text-align: justify;
+    margin: 1% auto;
+    color: rgb(144, 144, 144);
+}
+.caixaFormulario{
+    display: flex;
+    justify-content: center;
+    border: black 0.5px solid;
+    border-radius: 4px;
+}
+.formularioPrimeiraEtapa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+.etiquetaDosCamposPE{
+    margin: 3% 0;
+}
+.inputPrimeiraEtapa{
+    border: solid 0.3px rgb(135, 135, 135);
+    border-radius: 3px;
+    padding: 5px;
+    width: 90%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+.checkBox{
+    margin: 0.5em;
+}
+.labelCheckBox{
+    text-align: justify;
+}
+.buttonReservar{
+    margin: 1rem;
+    width: 40%;
+    height: 3rem;
+    border: solid grey 1px;
+    border-radius: 3px;
+}
+.buttonReservar:hover{
+    background-color: rgb(184, 181, 179);
+}
+.buttonReservar:active{
+    background-color: rgb(104, 103, 102);
+}
+
+
+@media screen and (min-width:800px) {
+    .main-reservas{
+        display: inline;
+    }
+    .primeiraEtapa{
+        border-radius: 4px;
+        height: 600px;
+        width: 40%;
+        margin: 0 auto 2rem;
+    }
+    .paragrafoPrimeiraEtapa{
+        text-align: justify;
+        margin: 1% auto;
+        color: rgb(144, 144, 144);
+    }
+    .inputPrimeiraEtapa{
+        text-align: left;
+    }
+    
+}
