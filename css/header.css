@@ -1,35 +1,83 @@
 header{
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.barraHorizontal{
-    padding: 1rem 0;
-    width: 100%;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
 }
 .logo{
+    margin-top: 1rem;
+    width: 60%;
+}
+.logo-img{
+    width: 100%;/*dimensão da img dentro do logo*/
+}
+.bnt-menu-mobile{
+    font-size: 2rem;
+}
+
+.menu-mobile-off{
+    display: none;
+    position: fixed;
+    right: 0%;
+    width: 50vw;
+    background-color: #c5c5c5;
+    height: 100%;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+.bnt-menu, .bnt-menu-close{
+    background-color: #c5c5c5;
+    font-size: 1.5rem;
+    margin: .3rem;
+}
+ .menu-mobile-on{
     display: flex;
+    animation-name: open-menu-mobile;
+    animation-duration: 1s;
+}
+.animation-close{
+    animation-name: close-menu-mobile;
+    animation-duration: 1.1s;
+}
+
+@keyframes open-menu-mobile{
+        from {
+          right: -50vw;
+        }
+        to {
+          right: 0;
+        }
+      }
+@keyframes close-menu-mobile{
+        from {
+          right: 0;
+        }
+        to {
+          right: -50vw;
+        }
+      }
+
+.menu-desktop{
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .menu-desktop{
+    display: flex;
+  }
+  .bnt-menu-mobile, .menu-mobile{
+    display: none;
+  }
+  header{
     align-items: center;
-    justify-content: center;  
-}
-.buttonBarraHorizontal{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-}
-.buttonH{
-    padding: 0.5em;
-}
-@media screen and (min-width:800px) {
-    .barraHorizontal{
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .buttonH{
-        margin: 1em;
-        cursor: pointer;
-    }
+  }
+  .logo{
+    margin-top: 1rem;
+    width: 30%;
+  }
+  .logo-img{
+    width: 100%;/*dimensão da img dentro do logo*/
+  }
+  .bnt-menu-desktop{
+    margin: .5rem;
+  }
 }

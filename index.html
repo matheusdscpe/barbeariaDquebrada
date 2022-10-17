@@ -7,36 +7,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="sgv/scissors.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/all.css">
+    <script src="https://kit.fontawesome.com/9662d1bb26.js" crossorigin="anonymous"></script>
     <title>DQUEBRADA</title>
 </head>
 
 <body>
 
     <header>
-        <div class="barraHorizontal">
-            <a href="index.html">
-                <h1 class="logo">
-                    <img src="img/logo/Logo_Barbearia_Dquebrada-sem-fundo-menor1.png" alt="Logo da Barbearia Dquebrada">
-                </h1>
-            </a>
-            <nav class="buttonBarraHorizontal">
-                <a href="index.html">
-                    <button class="buttonH">HOME</button>
-                </a>
-                <a href="valores.html">
-                    <button class="buttonH">VALORES</button>
-                </a>
-                <a href="reservas.html">
-                    <button class="buttonH">RESERVAS</button>
-                </a>
-                <a href="contatos.html">
-                    <button class="buttonH">CONTATOS</button>
-                </a>
-                <a href="sobre.html">
-                    <button class="buttonH">SOBRE<button>
-                </a>
-            </nav>
-        </div>
+        <h1 class="logo">
+            <img class="logo-img" src="img/logo/Logo_Barbearia_Dquebrada-sem-fundo-menor1.png"
+                alt="Logo da Barbearia Dquebrada">
+        </h1>
+
+        <button class="bnt bnt-menu-mobile">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav id="menu-mobile" class="menu-mobile-off">
+
+            <button class="bnt-menu-close">
+                <i class="fa-solid fa-xmark bnt-menu"></i>
+            </button>
+
+            <button class="bnt-menu">HOME</button>
+            <button class="bnt-menu">VALORES</button>
+            <button class="bnt-menu">RESERVAS</button>
+            <button class="bnt-menu">CONTATOS</button>
+            <button class="bnt-menu">SOBRE<button>
+
+        </nav>
+
+        <nav class="menu-desktop">
+            <button class="bnt-menu-desktop">HOME</button>
+            <button class="bnt-menu-desktop">VALORES</button>
+            <button class="bnt-menu-desktop">RESERVAS</button>
+            <button class="bnt-menu-desktop">CONTATOS</button>
+            <button class="bnt-menu-desktop">SOBRE<button>
+        </nav>
     </header>
 
     <main>
@@ -78,5 +85,6 @@
             </div>
         </div>
     </footer>
+    <script src="js/header.js"></script>
 
 </html>
