@@ -13,30 +13,35 @@
 <body>
 
     <header>
-        <div class="barraHorizontal">
-            <a href="index.html">
-                <h1 class="logo">
-                    <img src="img/logo/Logo_Barbearia_Dquebrada-sem-fundo-menor1.png" alt="Logo da Barbearia Dquebrada">
-                </h1>
-            </a>
-            <nav class="buttonBarraHorizontal">
-                <a href="index.html">
-                    <button class="buttonH">HOME</button>
-                </a>
-                <a href="valores.html">
-                    <button class="buttonH">VALORES</button>
-                </a>
-                <a href="reservas.html">
-                    <button class="buttonH">RESERVAS</button>
-                </a>
-                <a href="contatos.html">
-                    <button class="buttonH">CONTATOS</button>
-                </a>
-                <a href="sobre.html">
-                    <button class="buttonH">SOBRE<button>
-                </a>
-            </nav>
-        </div>
+        <h1 class="logo">
+            <img class="logo-img" src="img/logo/Logo_Barbearia_Dquebrada-sem-fundo-menor1.png"
+                alt="Logo da Barbearia Dquebrada">
+        </h1>
+
+        <button class="bnt bnt-menu-mobile">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav id="menu-mobile" class="menu-mobile-off">
+
+            <button class="bnt-menu-close">
+                <i class="fa-solid fa-xmark bnt-menu"></i>
+            </button>
+
+            <a href="./index.html" class="bnt-menu">HOME</a>
+            <a href="./valores.html" class="bnt-menu">VALORES</a>
+            <a href="./reservas.html" class="bnt-menu">RESERVAS</a>
+            <a href="./contatos.html" class="bnt-menu">CONTATOS</a>
+            <a href="sobre.html" class="bnt-menu">SOBRE</a>
+        </nav>
+
+        <nav class="menu-desktop">
+            <button class="bnt-action bnt-menu-desktop">HOME</button>
+            <button class="bnt-action bnt-menu-desktop">VALORES</button>
+            <button class="bnt-action bnt-menu-desktop">RESERVAS</button>
+            <button class="bnt-action bnt-menu-desktop">CONTATOS</button>
+            <button class="bnt-action bnt-menu-desktop">SOBRE<button>
+        </nav>
     </header>
 
     <main class="main-reservas">
