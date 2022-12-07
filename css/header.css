@@ -1,18 +1,33 @@
 header{
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 1rem;
+  display: none;
+  height: 15vh;
 }
-.logo{
-    margin-top: 1rem;
-    width: 60%;
+.div{
+  border: solid;
+  height: 20vh;
+  display: flex;
+  margin-bottom: 50px;
 }
-.logo-img{
-    width: 100%;/*dimensão da img dentro do logo*/
-}
-.bnt-menu-mobile{
-    font-size: 2rem;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .menu-mobile-off{
     display: none;

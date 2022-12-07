@@ -19,29 +19,3 @@ bnt_menu_close.addEventListener('click', close_menu);
 
 
 //fim menu mobile
-
-
-//inicio ação dos bnt do menu
-
-const bnts = document.querySelectorAll(".bnt-action");
-
-let links = ["home", "valores", "reservas", "contatos", "sobre"];
-
-for(let i = 0; i>bnts.length;i++){
-    if(bnts[i]==links[1]){
-        bnts.addEventListener('click', att_pagina);
-    }
-}
-
-
-console.log(links)
-console.log(bnts)
-
-function att_pagina(){
-    
-
-
-    window.location.href = local;
-}
-
-// bnts.addEventListener('click', att_pagina);

@@ -1,4 +1,4 @@
-footer{
+footer {
     /*border: solid red 2px;*/
     display: flex;
     background-color: grey;
@@ -7,32 +7,40 @@ footer{
     height: 100%;
     margin-top: 1%;
 }
-.logoBigode{
+
+.logoBigode {
     background-color: transparent;
 }
-#logoDoBigode{
+
+#logoDoBigode {
     background-color: transparent;
     opacity: 75%;
 }
-.blocoRodaPe{
+
+.blocoRodaPe {
     background-color: transparent;
 }
-#fraseRodaPe{
+
+#fraseRodaPe {
     font-size: 14px;
 }
-#paragrafoRodaPe{
+
+#paragrafoRodaPe {
     background-color: transparent;
 }
-#iconesSocialMedia{
+
+#iconesSocialMedia {
     display: flex;
     justify-content: space-around;
     background-color: transparent;
 }
-.backgroundT{
+
+.backgroundT {
     background-color: transparent;
     margin-top: 3%;
 }
-#paragrafoC{
+
+#paragrafoC {
     text-align: center;
     margin-bottom: 3%;
 }
